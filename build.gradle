@@ -34,6 +34,7 @@ repositories {
 // 프로젝트 개발에 필요한 의존성들을 선언하는 곳이다.
 dependencies {
     // testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile('org.springframework.boot:spring-boot-starter-web')Å
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.projecatlombok:lombok')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
